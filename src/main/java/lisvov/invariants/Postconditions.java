@@ -1,4 +1,4 @@
-package lisvov;
+package lisvov.invariants;
 
 class Postconditions {
     private class Super {

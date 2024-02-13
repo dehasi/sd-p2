@@ -5,7 +5,7 @@ import java.util.List;
 class P1 {
 
     // Add fly
-     static abstract class Duck {
+    static abstract class Duck {
         void quack() {
             System.out.println("quack!");
         }
@@ -17,21 +17,21 @@ class P1 {
         abstract void display();
     }
 
-     static class MallardDuck extends Duck {
+    static class MallardDuck extends Duck {
 
         @Override void display() {
             System.out.println("I am look like a mallard");
         }
     }
 
-     static class RedheadDuck extends Duck {
+    static class RedheadDuck extends Duck {
 
         @Override void display() {
             System.out.println("I am look like a readhead");
         }
     }
 
-     static class RubberDuck extends Duck {
+    static class RubberDuck extends Duck {
 
         @Override void quack() {
             System.out.println("squeak!");

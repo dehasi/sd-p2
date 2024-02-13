@@ -1,4 +1,4 @@
-= Plan
+= Plan for Practice #2
 :toc:
 
 == Homework
@@ -21,7 +21,7 @@ LSP is about contracts and not about code.
 * [ ] Postconditions cannot be weakened in the subtype
 * [ ] Invariants must be preserved in the subtype
 
-== Braak Inheritance
+== Break Inheritance
 * [ ] InstrumentedSet
 * [ ] ForwardedSet
 
@@ -39,6 +39,7 @@ image::meme.png[]
 @startuml
 abstract class Duck {
     swim()
+    quack()
     {abstract} display()
 }
 

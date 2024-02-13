@@ -1,4 +1,4 @@
-package lisvov;
+package lisvov.invariants;
 
 class Invariants {
     class Super {
