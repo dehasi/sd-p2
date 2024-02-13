@@ -1,0 +1,14 @@
+#!/usr/bin/env groovy
+
+// mixIn
+trait Quakable {
+    void quack() {
+        println "Quack!"
+    }
+}
+
+class Duck implements Quakable {}
+
+def duck = new Duck()
+
+duck.quack()
