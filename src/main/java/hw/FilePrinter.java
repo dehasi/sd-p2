@@ -29,7 +29,7 @@ class FilePrinter {
             } else if (input.startsWith("exit")) {
                 break;
             } else {
-                System.out.println("Unknown command, please use 'help'");
+                System.err.println("Unknown command, please use 'help'");
             }
         }
     }
